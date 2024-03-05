@@ -1,0 +1,30 @@
+header {
+    width: 100%;
+    background-color: $primary-dark;
+    border-bottom: 2px solid #1F2327;
+    padding: 15px 10px;
+
+    .wrapper { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            & h1 {
+                color: #fff;
+            }
+        }
+
+        &__right {
+
+            border: 3px solid #ffffff80;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+    }
+}
